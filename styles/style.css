@@ -1,0 +1,107 @@
+h1{
+  font-family: 'Cinzel Decorative', cursive;
+  color: #2a2a2a;
+}
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  text-shadow: 1px 1px 10px blue;
+  overflow: auto;
+}
+header img {
+	/*display: block;*/
+	width: 125px;
+	height: 140px;
+	padding-top: 0px;
+	/*margin-right: 100px;*/
+}
+header h1 {
+  flex: 1;
+  text-transform: uppercase;
+}
+header {
+  margin-bottom: 10px;
+  display: flex;
+  flex-flow: row wrap;
+}
+main, nav, article, aside, footer, section {
+  background-color: rgba(280,0,50,50);
+  padding: 1%;
+}
+header {
+	/*background-color: rgb(0, 182, 255);*/
+	background: linear-gradient(to bottom, rgba(0,182,255, 0.25), rgba(0,0,0,0.1));
+}
+/*nav ul {
+  padding: 0;
+  list-style-type: none;
+  flex: 2;
+  display: flex;
+}*/
+/*nav li {
+  display: inline;
+  text-align: center;
+  flex: 1;
+  font-size: 25px;
+}*/
+/*nav a, nav span{
+  display: inline-block;
+  font-size: 2rem;
+  height: 3rem;
+  line-height: 1.7;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  padding: 25px;
+
+}*/
+/*nav a, nav span{
+	display: inline;
+	text-align: center;
+	flex: 1;
+	text-decoration:none;
+	border-radius:15px;
+	padding:25px;
+}*/
+nav {
+	/*background-color: #0070ff;*/
+	background: linear-gradient(to bottom, rgba(0,112,255, 0.75), rgba(0,0,100,0.35));
+	/*margin:10px;*/
+	border-radius:10px;
+	/*text-align:center;*/
+	padding:10px;
+	/*height: 50px;*/
+ 	flex: 100%;
+	/*display: flex;
+	/*flex-flow: row wrap;*/
+}
+nav ul{
+	overflow-x:hidden;
+	white-space:nowrap;
+	display: flex;
+	flex: 1;
+} 
+nav ul li{
+	/*display: flex;*/
+	 flex:1;
+	text-decoration:none;	
+	list-style-type: none;		/*used to remove dots in front of list elements*/
+	border-radius:20px;
+	background-color:#31ff00;;
+	padding:5px;
+	font-weight: bold;
+	margin-right: 10px;
+	text-align:center;	 
+}
+/*nav ul li a,nav ul li span{
+	text-decoration:none;
+	border-radius:20px;
+	background-color:red;
+	padding:5px;
+	flex: 1;
+}*/
+body{
+	background-color: white; 
+	background-scroll: fixed;
+	
+}
